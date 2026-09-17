@@ -717,50 +717,50 @@ body {
   font-size: 0.82rem;
   letter-spacing: 0.24em;
   color: var(--gold-light);
-  margin-bottom: 8px;
+  margin-bottom: 22px;
 }
 
 .countdown-boxes-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 8px;
-  margin: 0 auto;
+  gap: 10px;
+  margin: 0 auto 24px;
   max-width: 380px;
 }
 
 .timer-box {
   flex: 1;
-  background: rgba(28, 2, 7, 0.72);
-  border: 1px solid var(--gold-border);
-  border-radius: var(--radius-sm);
-  padding: 12px 4px 10px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  border-radius: 8px;
+  padding: 14px 4px 12px;
   text-align: center;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
-  backdrop-filter: blur(6px);
+  backdrop-filter: blur(4px);
   transition: var(--transition);
 }
 
 .timer-box:hover {
-  border-color: var(--gold-bright);
-  transform: translateY(-3px);
-  box-shadow: 0 10px 28px rgba(203, 162, 67, 0.25);
+  border-color: rgba(255, 255, 255, 0.65);
+  background: rgba(255, 255, 255, 0.09);
+  transform: translateY(-2px);
 }
 
 .timer-number {
-  font-family: var(--font-editorial);
+  font-family: var(--font-serif);
   font-size: 2rem;
-  font-weight: 700;
-  line-height: 1;
-  margin-bottom: 4px;
+  font-weight: 400;
+  line-height: 1.05;
+  color: #ffffff;
+  margin-bottom: 6px;
 }
 
 .timer-unit {
-  font-family: var(--font-sans);
+  font-family: var(--font-serif);
   font-size: 0.62rem;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.22em;
   color: rgba(255, 255, 255, 0.85);
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .chapter-sub {
